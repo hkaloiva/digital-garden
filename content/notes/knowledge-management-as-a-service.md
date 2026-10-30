@@ -38,3 +38,4 @@ Content-first: write about "why new hires take 3 months to ramp" and "why your A
 - [[Ramp time and the new hire problem]]
 - [[Why AI support agents give wrong answers]]
 - [[AI in support teams]]
+- [[Content-first distribution]]

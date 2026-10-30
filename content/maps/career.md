@@ -16,10 +16,16 @@ Map of content for career direction, entrepreneurship, and personal growth.
 - [[The Dealmaker archetype]] — my founder profile
 - [[Interesting problems that help many people]] — my north star filter
 - [[Don't become an egocentric blowhard]] — my anti-goal
+- [[The hamster wheel]] — the state I'm avoiding
+- [[Service first, productize later]] — my business sequence
+- [[Content-first distribution]] — authority before product
 
 ## Notes in this cluster
 
 - [[Learning in Public]]
+- [[The Pravets photo]]
+- [[Flat-fee vs hourly]]
+- [[Buffer for transitions]]
 - [[Service Delivery]]
 
 ## Open questions
@@ -31,4 +37,6 @@ Map of content for career direction, entrepreneurship, and personal growth.
 
 - [[Service Delivery]]
 - [[AI & Automation]]
+- [[Principles]]
+- [[Home Ops]]
 - [[Now]]

@@ -15,11 +15,13 @@ Map of content for AI, automation, and how I'm applying them to service delivery
 - [[Why AI support agents give wrong answers]] — the data-layer problem
 - [[Prompt libraries as a product]] — reusable AI assets
 - [[Automation should remove toil, not judgment]] — where to draw the line
+- [[AI as a hobby not just a tool]] — curiosity as the engine
 
 ## Notes in this cluster
 
 - [[Ramp time and the new hire problem]]
 - [[Service delivery vs technical execution]]
+- [[Knowledge management as a service]]
 
 ## Things I'm exploring
 
@@ -31,3 +33,4 @@ Map of content for AI, automation, and how I'm applying them to service delivery
 
 - [[Service Delivery]]
 - [[Career & Growth]]
+- [[Principles]]

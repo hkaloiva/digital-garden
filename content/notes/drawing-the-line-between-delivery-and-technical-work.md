@@ -30,3 +30,5 @@ I like solving problems myself and not relying on anyone. That's a strength that
 
 - [[Communication is the only thing only you can do]]
 - [[Knowledge management as a service]]
+- [[Tight-loose-tight]]
+- [[Cross-checking is not weakness]]

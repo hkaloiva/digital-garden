@@ -32,3 +32,4 @@ If automating it would make a client feel like they're talking to a machine, don
 
 - [[AI in support teams]]
 - [[Drawing the line between delivery and technical work]]
+- [[AI as a hobby not just a tool]]

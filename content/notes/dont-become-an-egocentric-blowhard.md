@@ -25,3 +25,5 @@ The "hamster wheel" — being limited without choice. The opposite of freedom is
 
 - [[A kept promise is success]]
 - [[The Dealmaker archetype]]
+- [[The hamster wheel]]
+- [[Mission above ego]]

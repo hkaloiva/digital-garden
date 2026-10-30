@@ -17,12 +17,17 @@ Map of content for everything related to my work in service delivery and IT oper
 - [[Drawing the line between delivery and technical work]] — my blind spot
 - [[Knowledge management as a service]] — the KB rework story
 - [[AI in support teams]] — where service delivery meets AI
+- [[Tact is not evasion]] — communication principle
+- [[Tight-loose-tight]] — operating style
+- [[Mission above ego]] — leadership principle
 
 ## Notes in this cluster
 
 - [[Service delivery vs technical execution]]
 - [[Ramp time and the new hire problem]]
 - [[Why AI support agents give wrong answers]]
+- [[Ground everything]]
+- [[Cross-checking is not weakness]]
 
 ## Open questions
 
@@ -33,3 +38,5 @@ Map of content for everything related to my work in service delivery and IT oper
 
 - [[Career & Growth]]
 - [[AI & Automation]]
+- [[Principles]]
+- [[Home Ops]]

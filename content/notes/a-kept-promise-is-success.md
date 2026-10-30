@@ -31,3 +31,5 @@ Keeping promises can become a trap — saying yes to everything to be reliable, 
 
 - [[Communication is the only thing only you can do]]
 - [[The Dealmaker archetype]]
+- [[Evening ritual with the kids]]
+- [[Ground everything]]

@@ -24,3 +24,5 @@ Being the communication hub feels like importance. It's actually a ceiling. The 
 
 - [[A kept promise is success]]
 - [[Knowledge management as a service]]
+- [[Tact is not evasion]]
+- [[Mission above ego]]
