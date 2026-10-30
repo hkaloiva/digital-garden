@@ -16,30 +16,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
+      header: Fraunces
       body: Source Sans Pro
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#faf6f0"
+        lightgray: "#e8e0d4"
+        gray: "#9a8f82"
+        darkgray: "#3a342e"
+        dark: "#1f1a15"
+        secondary: "#b4532a"
+        tertiary: "#6f8a5a"
+        highlight: rgba(180, 83, 42, 0.08)
+        textHighlight: "#f0d9a0"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1a1714"
+        lightgray: "#2a2520"
+        gray: "#6b6258"
+        darkgray: "#c9bfb2"
+        dark: "#e8e0d4"
+        secondary: "#d4845a"
+        tertiary: "#8fa87a"
+        highlight: rgba(212, 132, 90, 0.12)
+        textHighlight: "#7a6a2a"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -191,7 +191,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -236,7 +236,13 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
-    enabled: false
+    enabled: true
+    options:
+      limit: 5
+      showTags: true
+    layout:
+      position: right
+      priority: 40
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
