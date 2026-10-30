@@ -1,21 +1,12 @@
 # Kaloyan's Digital Garden
 
-A personal digital garden built with [Quartz 5](https://quartz.jzhao.xyz/) — Obsidian-compatible Markdown notes published as a free static site.
+A public digital garden of evergreen notes on service delivery, AI & automation, career, and principles — thinking out loud. Built on [Quartz 5](https://quartz.jzhao.xyz/).
 
-**Live site (after deploy):** https://YOUR-USERNAME.github.io/digital-garden (or your custom domain)
-
-## What's inside
-
-- `content/` — your notes (Markdown, Obsidian-flavored, with `[[wikilinks]]`)
-  - `content/index.md` — homepage
-  - `content/maps/` — maps of content (MOCs): topic indexes
-  - `content/notes/` — evergreen notes
-- `quartz.config.yaml` — site config (title, theme, plugins)
-- `.github/workflows/deploy.yml` — auto-deploy to GitHub Pages on push to `main`
+**Live site:** https://hkaloiva.github.io/digital-garden
 
 ## Publishing model
 
-`explicit-publish` is enabled: only notes with `publish: true` in frontmatter go live. Everything else stays private.
+`explicit-publish` is on: only notes with `publish: true` in frontmatter go live; everything else stays private.
 
 ```yaml
 ---
@@ -25,6 +16,33 @@ tags: [topic]
 ---
 ```
 
+## Features enabled
+
+- Full-text search, graph view, backlinks, recent-notes, tag list
+- OG images, RSS feed (`/rss.xml`), sitemap
+- Dark mode + custom warm-editorial theme (Fraunces / Source Sans Pro / IBM Plex Mono)
+- 404 page, breadcrumbs, table of contents, reader mode
+- Explicit publish (drafts stay private), unlisted pages, alias redirects
+
+## Structure
+
+```
+content/
+├── index.md              # home / entry point
+├── 404.md                # not-found page
+├── reading-list.md       # books & resources
+├── changelog.md          # garden update log
+├── maps/                 # maps of content (MOCs)
+│   ├── ai.md
+│   ├── career.md
+│   ├── home-ops.md
+│   ├── principles.md
+│   └── service-delivery.md
+└── notes/                # 30 evergreen notes
+```
+
+38 published pages in total: 30 notes, 5 MOCs, plus index, 404, reading list, and changelog.
+
 ## Local preview
 
 ```bash
@@ -33,40 +51,13 @@ npx quartz build --serve
 # open http://localhost:8080
 ```
 
-## Manual steps to go live (one-time)
+## Deploy
 
-### 1. Create a GitHub repo
-- Go to github.com → New repository → name it `digital-garden` → Create (empty, no README).
-- Copy the repo URL.
+Pushes to `main` deploy via GitHub Actions to GitHub Pages (`.github/workflows/deploy.yml`). `baseUrl` is set in `quartz.config.yaml`.
 
-### 2. Push this project
-```bash
-cd ~/projects/digital-garden
-git remote add origin https://github.com/YOUR-USERNAME/digital-garden.git
-git push -u origin main
-```
+## Using Obsidian (optional)
 
-### 3. Enable GitHub Pages
-- Repo → Settings → Pages → Source: **GitHub Actions**.
-- The deploy workflow runs automatically on push. First deploy takes ~2 min.
-- Site URL: `https://YOUR-USERNAME.github.io/digital-garden`
-
-### 4. Update baseUrl
-Edit `quartz.config.yaml` → set `baseUrl` to `YOUR-USERNAME.github.io/digital-garden` (or your custom domain). Commit + push.
-
-### 5. (Optional) Custom domain
-- Buy a domain (~$10/yr) → add a `CNAME` file in `content/` with your domain → update `baseUrl` → configure DNS (A records to GitHub Pages IPs). See Quartz hosting docs.
-
-## Using Obsidian (optional, recommended)
-
-This project is Obsidian-compatible. To edit notes in Obsidian:
-
-1. Install Obsidian (free) from obsidian.md.
-2. Open `~/projects/digital-garden/content/` as a vault (or symlink your existing vault into `content/`).
-3. Write notes with `[[wikilinks]]`. Mark `publish: true` to ship.
-4. Run `npx quartz build --serve` to preview, or push to deploy.
-
-**Tip:** keep private notes in a separate vault or a `private/` folder (already in ignorePatterns).
+Open `content/` as an Obsidian vault. Write notes with `[[wikilinks]]`, mark `publish: true` to ship. Private notes live in `private/` or stay unpublishable.
 
 ## Adding a note
 
@@ -74,15 +65,6 @@ This project is Obsidian-compatible. To edit notes in Obsidian:
 2. Link it from a MOC in `content/maps/`.
 3. Preview locally, then `git push`.
 
-## Structure
-
-```
-content/
-├── index.md
-├── maps/          # maps of content (topic indexes)
-└── notes/         # evergreen notes
-```
-
 ## Credits
 
-Built on [Quartz 5](https://github.com/jackyzha0/quartz) by Jacky Zhao. Theme, plugins, and hosting are all free/open-source.
+Built on [Quartz 5](https://quartz.jzhao.xyz/) by Jacky Zhao. Theme, plugins, and hosting are free/open-source.

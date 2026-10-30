@@ -8,7 +8,7 @@ tags:
 
 # Home Ops
 
-Map of content for home office, remote work, and personal productivity.
+Map of content for home office, remote work, and personal productivity. The non-work side of the system — and the honest limits of it.
 
 ## Core ideas
 
@@ -17,11 +17,20 @@ Map of content for home office, remote work, and personal productivity.
 - [[Household is not my strength]] — the honest blind spot
 - [[Buffer for transitions]] — optionality at home and work
 - [[Tight-loose-tight]] — operating style
+- [[Mission above ego]] — leadership principle at home too
 
 ## Notes in this cluster
 
-- [[The hamster wheel]]
-- [[Mission above ego]]
+- [[The hamster wheel]] — the state I'm avoiding
+- [[Ground everything]] — no invented facts, anywhere
+- [[Learning in public]] — thinking out loud includes the personal
+- [[Now]] — what I'm focused on this month
+
+## Things I'm exploring
+
+- The smallest reliable household system I can actually maintain
+- How to protect the evening ritual when the client's day runs late
+- Remote-work boundaries that survive a busy week
 
 ## Open questions
 
@@ -32,3 +41,5 @@ Map of content for home office, remote work, and personal productivity.
 
 - [[Service Delivery]]
 - [[Principles]]
+- [[maps/career|Career & Growth]]
+- [[Changelog]]
