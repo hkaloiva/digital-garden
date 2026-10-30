@@ -1,5 +1,6 @@
 ---
 title: Welcome to my digital garden
+description: A digital garden of notes on service delivery, AI, career, and principles — thinking out loud.
 publish: true
 tags:
   - moc
@@ -17,6 +18,7 @@ Start with one of these maps of content:
 - [[Principles]] — values and operating rules
 - [[Home Ops]] — home office, remote work, personal productivity
 - [[Now]] — what I'm focused on this month
+- [[Reading List]] — books and resources I'm drawing from
 
 ## How to read this garden
 

@@ -35,6 +35,8 @@ Map of content for career direction, entrepreneurship, and personal growth.
 
 ## See also
 
+- [[Reading List]] — books and resources I'm drawing from
+
 - [[Service Delivery]]
 - [[AI & Automation]]
 - [[Principles]]

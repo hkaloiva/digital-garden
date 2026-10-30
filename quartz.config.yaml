@@ -4,8 +4,10 @@ configuration:
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
+  # Analytics disabled: no account configured. Privacy-friendly providers
+  # (plausible/umami/goatcounter/...) all require a site id or account, so
+  # leaving plausible here emitted a broken script. Re-enable when ready.
+  analytics: null
   locale: en-US
   baseUrl: hkaloiva.github.io/digital-garden
   ignorePatterns:
@@ -100,7 +102,7 @@ plugins:
     enabled: false
     order: 85
   - source: "@quartz-community/hard-line-breaks"
-    enabled: true
+    enabled: false
     order: 90
   - source: "@quartz-community/ox-hugo"
     enabled: false
@@ -147,6 +149,9 @@ plugins:
     enabled: true
   - source: "@quartz-community/og-image"
     enabled: true
+    options:
+      defaultTitle: "Kaloyan's Digital Garden"
+      defaultDescription: "Notes on service delivery, AI, career, and principles — thinking out loud."
   - source: "@quartz-community/cname"
     enabled: true
   - source: "@quartz-community/canvas-page"
@@ -230,7 +235,9 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
+        GitHub: https://github.com/hkaloiva/digital-garden
+        Now: https://hkaloiva.github.io/digital-garden/notes/now
+        Contact: mailto:your-email-here@example.com
         Discord Community: https://discord.gg/cRFFHYye7t
     layout:
       position: footer
@@ -238,7 +245,7 @@ plugins:
   - source: "@quartz-community/recent-notes"
     enabled: true
     options:
-      limit: 5
+      limit: 7
       showTags: true
     layout:
       position: right
