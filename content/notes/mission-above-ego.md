@@ -26,6 +26,6 @@ A Dealmaker's leverage is presence and trust. That's close to ego's territory. T
 
 ## Related
 
-- [[Don't become an egocentric blowhard]]
+- [[dont-become-an-egocentric-blowhard|Don't become an egocentric blowhard]]
 - [[The Dealmaker archetype]]
 - [[Tight-loose-tight]]

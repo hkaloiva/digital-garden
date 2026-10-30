@@ -32,6 +32,6 @@ Flat-fee without a clear scope is a donation. Write the scope, the exclusions, a
 
 ## Related
 
-- [[Service first, productize later]]
+- [[service-first-productize-later|Service first, productize later]]
 - [[The Dealmaker archetype]]
 - [[A kept promise is success]]

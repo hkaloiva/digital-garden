@@ -36,7 +36,7 @@ Map of content for everything related to my work in service delivery and IT oper
 
 ## See also
 
-- [[Career & Growth]]
-- [[AI & Automation]]
+- [[maps/career|Career & Growth]]
+- [[maps/ai|AI & Automation]]
 - [[Principles]]
 - [[Home Ops]]

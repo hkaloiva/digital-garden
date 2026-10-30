@@ -27,5 +27,5 @@ Service delivery is a stress-heavy job. If I don't process it somewhere, it come
 ## Related
 
 - [[Evening ritual with the kids]]
-- [[Automation should remove toil, not judgment]]
+- [[automation-should-remove-toil-not-judgment|Automation should remove toil, not judgment]]
 - [[Drawing the line between delivery and technical work]]

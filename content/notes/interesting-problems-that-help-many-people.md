@@ -28,5 +28,5 @@ I say I want to start a business but "I don't have a clear goal and I'm not a bu
 ## Related
 
 - [[The Dealmaker archetype]]
-- [[Don't become an egocentric blowhard]]
-- [[Service first, productize later]]
+- [[dont-become-an-egocentric-blowhard|Don't become an egocentric blowhard]]
+- [[service-first-productize-later|Service first, productize later]]

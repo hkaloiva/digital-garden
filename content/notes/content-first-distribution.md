@@ -33,5 +33,5 @@ Not followers. Conversations. If a note starts a real exchange with someone who 
 ## Related
 
 - [[Learning in public]]
-- [[Service first, productize later]]
+- [[service-first-productize-later|Service first, productize later]]
 - [[The Dealmaker archetype]]

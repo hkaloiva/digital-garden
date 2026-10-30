@@ -28,5 +28,5 @@ Relationship-sold. You're the trusted advisor who understands their business, no
 
 ## Related
 
-- [[AI & Automation]]
+- [[maps/ai|AI & Automation]]
 - [[The Dealmaker archetype]]

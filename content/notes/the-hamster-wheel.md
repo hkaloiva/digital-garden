@@ -30,6 +30,6 @@ Failure is at least honest — you know where you stand. The hamster wheel disgu
 
 ## Related
 
-- [[Don't become an egocentric blowhard]]
+- [[dont-become-an-egocentric-blowhard|Don't become an egocentric blowhard]]
 - [[The Dealmaker archetype]]
 - [[Buffer for transitions]]

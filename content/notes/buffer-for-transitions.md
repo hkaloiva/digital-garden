@@ -31,5 +31,5 @@ A buffer can become hoarding — never spending it, never moving. The buffer exi
 ## Related
 
 - [[The hamster wheel]]
-- [[Service first, productize later]]
+- [[service-first-productize-later|Service first, productize later]]
 - [[A kept promise is success]]

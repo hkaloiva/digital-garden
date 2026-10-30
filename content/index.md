@@ -13,8 +13,8 @@ This is my digital garden — a public collection of notes I'm cultivating over 
 Start with one of these maps of content:
 
 - [[Service Delivery]] — my day job and professional identity
-- [[AI & Automation]] — what I'm learning and building
-- [[Career & Growth]] — where I'm heading
+- [[maps/ai|AI & Automation]] — what I'm learning and building
+- [[maps/career|Career & Growth]] — where I'm heading
 - [[Principles]] — values and operating rules
 - [[Home Ops]] — home office, remote work, personal productivity
 - [[Now]] — what I'm focused on this month

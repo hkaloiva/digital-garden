@@ -31,8 +31,8 @@ Under stress, Dealmakers chase volume plays (marketplaces, anonymous SaaS) that 
 ## Related
 
 - [[Interesting problems that help many people]]
-- [[Don't become an egocentric blowhard]]
+- [[dont-become-an-egocentric-blowhard|Don't become an egocentric blowhard]]
 - [[A kept promise is success]]
 - [[Flat-fee vs hourly]]
 - [[Content-first distribution]]
-- [[Service first, productize later]]
+- [[service-first-productize-later|Service first, productize later]]

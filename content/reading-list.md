@@ -33,5 +33,5 @@ Books, essays, and resources I'm reading or have read, with a one-line take. Upd
 ## See also
 
 - [[Now]]
-- [[Career & Growth]]
+- [[maps/career|Career & Growth]]
 - [[Learning in Public]]

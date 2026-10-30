@@ -31,5 +31,5 @@ If I'm being "tactful" and the other person still doesn't know there's a problem
 ## Related
 
 - [[A kept promise is success]]
-- [[Don't become an egocentric blowhard]]
+- [[dont-become-an-egocentric-blowhard|Don't become an egocentric blowhard]]
 - [[Communication is the only thing only you can do]]

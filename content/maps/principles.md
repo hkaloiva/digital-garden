@@ -21,16 +21,16 @@ Map of content for values, principles, and operating rules.
 
 ## Notes in this cluster
 
-- [[Don't become an egocentric blowhard]]
+- [[dont-become-an-egocentric-blowhard|Don't become an egocentric blowhard]]
 - [[The hamster wheel]]
-- [[Automation should remove toil, not judgment]]
-- [[Service first, productize later]]
+- [[automation-should-remove-toil-not-judgment|Automation should remove toil, not judgment]]
+- [[service-first-productize-later|Service first, productize later]]
 - [[Flat-fee vs hourly]]
 - [[Content-first distribution]]
 
 ## See also
 
 - [[Service Delivery]]
-- [[Career & Growth]]
-- [[AI & Automation]]
+- [[maps/career|Career & Growth]]
+- [[maps/ai|AI & Automation]]
 - [[Home Ops]]
