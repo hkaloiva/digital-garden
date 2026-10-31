@@ -6,8 +6,6 @@ const Header = HeaderConstructor()
 /**
  * The default page frame — three-column layout with left sidebar, center
  * content (header + body + afterBody), and right sidebar, followed by a footer.
- *
- * This is the original Quartz layout, extracted from renderPage.tsx.
  */
 export const DefaultFrame: PageFrame = {
   name: "default",
@@ -23,12 +21,17 @@ export const DefaultFrame: PageFrame = {
   }: PageFrameProps) {
     return (
       <>
-        <div class="left sidebar">
-          {left.map((BodyComponent) => (
-            <BodyComponent {...componentData} />
-          ))}
-        </div>
-        <div class="center">
+        <a class="skip-link" href="#main-content">
+          Skip to main content
+        </a>
+        <aside class="left sidebar" aria-label="Site navigation">
+          <nav aria-label="Primary">
+            {left.map((BodyComponent) => (
+              <BodyComponent {...componentData} />
+            ))}
+          </nav>
+        </aside>
+        <main class="center" id="main-content" tabindex={-1}>
           <div class="page-header">
             <Header {...componentData}>
               {header.map((HeaderComponent) => (
@@ -48,12 +51,12 @@ export const DefaultFrame: PageFrame = {
               <BodyComponent {...componentData} />
             ))}
           </div>
-        </div>
-        <div class="right sidebar">
+        </main>
+        <aside class="right sidebar" aria-label="Page outline and metadata">
           {right.map((BodyComponent) => (
             <BodyComponent {...componentData} />
           ))}
-        </div>
+        </aside>
         {footer.map((FooterComponent) => (
           <FooterComponent {...componentData} />
         ))}

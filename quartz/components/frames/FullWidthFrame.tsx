@@ -3,14 +3,6 @@ import HeaderConstructor from "../Header"
 
 const Header = HeaderConstructor()
 
-/**
- * Full-width page frame — no sidebars. The center content area spans the
- * full width of the page. Header, beforeBody, body, afterBody, and footer
- * are all rendered in a single column.
- *
- * Useful for page types like Canvas, presentations, or dashboards that
- * need maximum horizontal space.
- */
 export const FullWidthFrame: PageFrame = {
   name: "full-width",
   render({
@@ -23,7 +15,10 @@ export const FullWidthFrame: PageFrame = {
   }: PageFrameProps) {
     return (
       <>
-        <div class="center full-width">
+        <a class="skip-link" href="#main-content">
+          Skip to main content
+        </a>
+        <main class="center full-width" id="main-content" tabindex={-1}>
           <div class="page-header">
             <Header {...componentData}>
               {header.map((HeaderComponent) => (
@@ -43,7 +38,7 @@ export const FullWidthFrame: PageFrame = {
               <BodyComponent {...componentData} />
             ))}
           </div>
-        </div>
+        </main>
         {footer.map((FooterComponent) => (
           <FooterComponent {...componentData} />
         ))}

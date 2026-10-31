@@ -64,7 +64,9 @@ a.internal {
   text-decoration-color: var(--gray);
   text-underline-offset: 0.18em;
   text-decoration-thickness: 1px;
-  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+  transition:
+    color 0.15s ease,
+    text-decoration-color 0.15s ease;
 }
 
 a.internal-link:hover,
@@ -177,4 +179,87 @@ article a {
 
 article a:hover {
   color: var(--tertiary);
+}
+
+/* Accessibility: skip link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  z-index: 1000;
+  padding: 0.5rem 0.75rem;
+  background: var(--secondary);
+  color: var(--light);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0 0 6px 0;
+  transition: top 0.15s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Accessibility: focus-visible outline */
+*:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+}
+
+/* Keep landmark nav from breaking sidebar flex layout */
+.left.sidebar > nav {
+  display: contents;
+}
+
+/* Print stylesheet */
+@media print {
+  .left.sidebar,
+  .right.sidebar,
+  .page-header .darkmode,
+  .search,
+  .explorer,
+  nav[aria-label="Primary"] > .search,
+  footer {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+  }
+
+  .page .center > article,
+  main.center {
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+
+  pre,
+  code {
+    background: #f2f2f2 !important;
+    color: #000 !important;
+  }
+
+  blockquote {
+    background: #f2f2f2 !important;
+    color: #000 !important;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
