@@ -21,6 +21,21 @@ Six entry points into the garden, each a short note with links onward:
 - [[Tight-loose-tight]] — my operating style, end to end.
 - [[Now]] — what I'm focused on this month.
 
+## Recently cultivated
+
+Ten new notes from this pass:
+
+- [[Promise debt]] — what a broken promise costs emotionally
+- [[The Pravets computer]] — personal narrative as argument
+- [[Bartender to SDM]] — the career arc
+- [[Reading to the kids]] — the evening ritual, non-negotiable
+- [[Running as discipline]] — finding time for running and meditation
+- [[Context before verdict]] — facts and history before the conclusion
+- [[Don't rely blindly on others]] — independence plus cross-checking
+- [[The exit from the hamster wheel]] — converting competence into freedom
+- [[Interesting problems]] — what makes a problem worth solving
+- [[Measuring by promises kept]] — success as promises kept
+
 Maps of content (topic indexes):
 
 - [[Service Delivery]] — day job and professional identity

@@ -10,6 +10,13 @@ tags:
 
 A reverse-chronological log of updates to this garden. The garden is never "done" — this is where the evolution shows.
 
+## 2026-10-31 — Content expansion: ten new evergreen notes
+
+- Added 10 new evergreen notes: [[Promise debt]], [[The Pravets computer]], [[Bartender to SDM]], [[Reading to the kids]], [[Running as discipline]], [[Context before verdict]], [[Don't rely blindly on others]], [[The exit from the hamster wheel]], [[Interesting problems]], [[Measuring by promises kept]].
+- Updated all five MOCs and the home page to include the new notes.
+- Checked Quartz 5 for a "random note" component/plugin: none found in `quartz/components` or installed packages; skipped enabling it.
+- Verified clean build (0 errors).
+
 ## 2026-10-30 — Polish pass: navigation & changelog
 
 - Refreshed `README.md` with full feature list, structure tree, and live URL.

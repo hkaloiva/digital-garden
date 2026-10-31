@@ -22,6 +22,8 @@ Map of content for AI, automation, and how I'm applying them to service delivery
 - [[Ramp time and the new hire problem]]
 - [[Service delivery vs technical execution]]
 - [[Knowledge management as a service]]
+- [[Interesting problems]]
+- [[Context before verdict]]
 
 ## Things I'm exploring
 

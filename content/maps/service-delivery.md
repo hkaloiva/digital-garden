@@ -13,11 +13,15 @@ Map of content for everything related to my work in service delivery and IT oper
 ## Core ideas
 
 - [[A kept promise is success]] — my operating law
+- [[Measuring by promises kept]] — how I score the work
 - [[Communication is the only thing only you can do]] — the SDM's real job
 - [[Drawing the line between delivery and technical work]] — my blind spot
 - [[Knowledge management as a service]] — the KB rework story
 - [[AI in support teams]] — where service delivery meets AI
 - [[Tact is not evasion]] — communication principle
+- [[Context before verdict]] — facts and history before the conclusion
+- [[Cross-checking is not weakness]] — decision method
+- [[Don't rely blindly on others]] — independence vs. input
 - [[Tight-loose-tight]] — operating style
 - [[Mission above ego]] — leadership principle
 
@@ -27,7 +31,7 @@ Map of content for everything related to my work in service delivery and IT oper
 - [[Ramp time and the new hire problem]]
 - [[Why AI support agents give wrong answers]]
 - [[Ground everything]]
-- [[Cross-checking is not weakness]]
+- [[Promise debt]]
 
 ## Open questions
 
