@@ -230,10 +230,22 @@ plugins:
       priority: 5
       condition: not-index
   - source: "@quartz-community/comments"
-    enabled: false
+    enabled: true
     options:
       provider: giscus
-      options: {}
+      options:
+        repo: hkaloiva/digital-garden
+        repoId: R_kgDOVdkxJg
+        category: General
+        categoryId: DIC_kwDOVdkxJs4DKD17
+        mapping: pathname
+        strict: "0"
+        reactionsEnabled: "1"
+        emitMetadata: "0"
+        inputPosition: top
+        theme: preferred_color_scheme
+        lang: en
+        loading: lazy
     layout:
       position: afterBody
       priority: 10
@@ -243,7 +255,6 @@ plugins:
       links:
         GitHub: https://github.com/hkaloiva/digital-garden
         Now: https://hkaloiva.github.io/digital-garden/notes/now
-        Contact: mailto:your-email-here@example.com
         Discord Community: https://discord.gg/cRFFHYye7t
     layout:
       position: footer
