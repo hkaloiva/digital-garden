@@ -65,6 +65,13 @@ Open `content/` as an Obsidian vault. Write notes with `[[wikilinks]]`, mark `pu
 2. Link it from a MOC in `content/maps/`.
 3. Preview locally, then `git push`.
 
+## Further reading
+
+- [Architecture](docs/ARCHITECTURE.md) — how Quartz 5 builds and deploys this garden.
+- [Custom domain](docs/CUSTOM-DOMAIN.md) — point a custom domain at GitHub Pages.
+- [Obsidian setup](docs/OBSIDIAN-SETUP.md) — authoring notes with Obsidian.
+- [Contributing](docs/CONTRIBUTING.md) — suggest edits, note style guide.
+
 ## Credits
 
 Built on [Quartz 5](https://quartz.jzhao.xyz/) by Jacky Zhao. Theme, plugins, and hosting are free/open-source.
